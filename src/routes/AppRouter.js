@@ -6,7 +6,7 @@ import { DashboardRouter } from './DashboardRouter'
 export const AppRouter = () => {
   return (
     <BrowserRouter>
-        <div className='container'>
+        <div className=''>
             <Routes>
                 <Route path='/login' element={<Login/>}/>
                 <Route path='*' element={<DashboardRouter/>}/>
