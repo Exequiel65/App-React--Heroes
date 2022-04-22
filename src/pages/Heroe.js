@@ -11,7 +11,7 @@ export const Heroe = () => {
   return (
     <div className='row mt-4 animate_animated animate_fadeIn'>
       <div className='col-4'>
-        <img className='img-thumbnail animate_animated animate_fadeLeft' src={`../assets/heroes/${heroeId}.jpg`} alt="" />
+        <img className='img-thumbnail animate_animated animate_fadeInLeft' src={`../assets/heroes/${heroeId}.jpg`} alt="" />
 
       </div>
       <div className='col-8'>
