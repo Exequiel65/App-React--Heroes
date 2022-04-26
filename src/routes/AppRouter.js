@@ -14,7 +14,7 @@ export const AppRouter = () => {
     <BrowserRouter>
         <div className=''>
             <Routes>
-                <Route path='/login' element={ !logueado ? <Login/> : <Navigate to='/' />}/>
+                <Route path='/login' element={ !logueado ? <Login/> : <Navigate to='/marvel' />}/>
                 <Route path='*' element={ logueado ? <DashboardRouter/> : <Navigate to='/login' />}/>
             </Routes>
         </div>
